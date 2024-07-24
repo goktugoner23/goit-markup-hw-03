@@ -1,9 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #ffffff;
-}
-
 .header-main {
     border-bottom: 1px solid #e7e9fc
 }
@@ -23,29 +17,8 @@ body {
     color: #2e2f42;
 }
 
-a {
-    color: #2e2f42;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    margin-right: 76px;
-}
-
 .contact-link {
     color: #434455;
-}
-
-a:hover, a:focus {
-    color: #404bbf;
-}
-
-address {
-    font-style: normal;
-}
-
-section {
-    background-color: #2e2f42;
 }
 
 .our-team{
@@ -60,63 +33,8 @@ section {
     background-color: #FFFFFF;
 }
 
-h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-button {
-    background-color: #4d5ae5;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-button:hover, button:focus {
-    background-color: #404bbf;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 .final {
     color: #F4F4FD;
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-footer {
-    background-color: #2e2f42;
-}
-
-img {
-    display:block;
 }
 
 .container {
@@ -128,5 +46,57 @@ img {
 .navbar-header {
     display: flex;
     align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 40px;
+}
+
+.title {
+    padding: 188px 0;
+    margin-bottom: 8px;
+}
+
+.title-business {
+    max-width: 496px;
+}
+
+.button-business {
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; 
+    border: 0;
+}
+
+.features {
+    padding: 120px 0;
+}
+
+.items-features {
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
 
 }
