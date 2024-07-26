@@ -180,6 +180,11 @@
     border-top: none;
 }
 
-.title, .category {
+.title {
+    color: #F4F4FD;
+    margin-bottom : 8px;
+}
+
+.category {
     color: #F4F4FD;
 }
