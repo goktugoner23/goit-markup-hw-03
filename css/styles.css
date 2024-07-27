@@ -179,7 +179,7 @@ p {
     row-gap: 48px;
 }
 
-.item-portfolio .list-portfolio {
+.item-portfolio {
     width: calc((100% - 3 * 24px) / 4);
 }
 
