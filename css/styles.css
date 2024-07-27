@@ -31,8 +31,9 @@ p {
     text-decoration: none;
 }
 
-.logo-footer {
-    display: inline-block;
+
+div.logo-footer {
+    display: inline-block !important;
     margin-bottom: 16px;
 }
 
@@ -181,7 +182,8 @@ p {
 }
 
 .item-portfolio {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4); 
+    margin-bottom: 24px;
 }
 
 .div-item-portfolio {
