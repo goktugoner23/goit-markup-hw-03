@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -30,7 +31,7 @@ p {
     text-decoration: none;
 }
 
-.logo-footer {
+.logo-footer .footer .web-studio {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -178,7 +179,7 @@ p {
     row-gap: 48px;
 }
 
-.item-portfolio {
+.item-portfolio .list-portfolio {
     width: calc((100% - 3 * 24px) / 4);
 }
 
