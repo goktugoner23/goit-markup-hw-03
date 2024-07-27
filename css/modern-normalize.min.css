@@ -67,13 +67,12 @@ button:hover, button:focus {
 }
 
 a {
-    /* color: #2e2f42;
+    color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    margin-right: 76px; */
-    text-decoration: none;
+    margin-right: 76px;
 }
 
 a:hover, a:focus {
